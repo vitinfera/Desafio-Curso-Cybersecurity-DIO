@@ -1,0 +1,6 @@
+1- Instale VirtualBox e importe as duas VMs.
+2- Nas configurações de rede de ambas, escolha Host-only Adapter e a mesma rede host-only.
+3- Inicialize ambas e anote seus endereços IP usando ip a.
+4- Do Kali, teste conectividade com ping -c 3 <IP_DO_ALVO>.
+5- Verifique os serviços autorizados com nmap -sV -p 21,80,139,445 <IP_DO_ALVO>.
+6- Confira medusa -h e medusa -d para listar opções e módulos disponíveis.
